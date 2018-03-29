@@ -26,7 +26,7 @@
 
 			fixed4 frag(v2f_img i) : COLOR{
 
-				float luminance = tex2D(_MainTex, i.uv).r;
+				float luminance = tex2D(_MainTex, i.uv).a;
 				float2 detect = tex2D(_MainTex, i.uv).gb;
 
 				fixed4 color;

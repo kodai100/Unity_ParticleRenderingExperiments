@@ -361,11 +361,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxParticleNum: 65536
   _throttle: 0.322
-  _emitterCenter: {x: 0, y: 6}
+  _emitterCenter: {x: 0, y: -5.81}
   _emitterSize: {x: 17.74, y: 0.95}
   _life: 29.25
   _lifeRandomness: 0.6
-  _initialVelocity: {x: 0, y: -2}
+  _initialVelocity: {x: 0, y: 0.47}
   _direction: {x: 0, y: 0}
   _directionSpread: 0.2
   _spread: 0
